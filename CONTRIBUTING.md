@@ -8,6 +8,10 @@ Want to contribute to the game? Awesome. There are a couple of ways you can cont
 
 Contributions will almost certainly net you some in-game Silver (no promises can be made, but it will probably happen). 
 
+## Before Starting
+
+Before you start any work, _please_ make reach out to a developer and make sure your idea fits in with the project. No one wants to do work that won't get accepted!
+
 ## Code
 
 To contribute code, I would urge you to set up and run the game locally ([instructions here](https://github.com/LandOfTheRair/lotr2/blob/master/README.md#requirements)). This will allow you to actually test your changes. When submitting code, you will have to create a pull request. If your pull request is sufficiently large (tackling a big fix, feature, etc) please describe it in-depth on the pull request. Some examples of what code changes could be:
