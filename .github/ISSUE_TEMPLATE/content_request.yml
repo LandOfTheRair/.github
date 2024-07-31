@@ -1,0 +1,40 @@
+name: Content change
+description: Suggest content changes for this project
+title: "[Content] - "
+labels: [content]
+body:
+- type: checkboxes
+  attributes:
+    label: Prerequisites
+    description: Please answer the following questions for yourself before submitting an issue.
+    options:
+    - label: I have searched the issue tracker to check if the issue has already been reported.
+      required: true
+
+- type: textarea
+  attributes:
+    label: Describe the content change
+    description: A clear and concise description of what you would like to see changed.
+  validations:
+    required: true
+
+- type: textarea
+  attributes:
+    label: Is your change request related to an existing issue? Please describe.
+    description: A clear and concise description of why it related to these issues.
+  validations:
+    required: false
+
+- type: textarea
+  attributes:
+    label: Describe alternatives you've considered or encountered
+    description: A clear and concise description of any alternative solutions or features you've considered.
+  validations:
+    required: false
+
+- type: textarea
+  attributes:
+    label: Additional context
+    description: Add any other context or screenshots about the feature request here.
+  validations:
+    required: false
